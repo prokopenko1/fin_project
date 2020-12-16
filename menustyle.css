@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster&family=Source+Serif+Pro&display=swap');
+body { background: url(img/фон-роллы.jpg);
+  height: 1600px;}
+nav { background: url(img/abstract-luxury-black-gradient-with-border-black-vignette-background-studio-backdrop-well-use-as-back-drop-background-black-board-black-studio-background-black-gradient-frame_1258-180.jpg);
+position: fixed; font-family: 'Source Serif Pro', serif;
+font-size: 110%;
+
+}
+
+.content1 { margin-top: 110px;}
+footer {
+background: url(img/abstract-luxury-black-gradient-with-border-black-vignette-background-studio-backdrop-well-use-as-back-drop-background-black-board-black-studio-background-black-gradient-frame_1258-180.jpg);}
+
+
+}
+.clock {font-size: 110%; }
+
+
+
+.blocImg {
+
+ overflow: hidden;
+ background: #000;
+ cursor: pointer;
+}
+.blocImg img {
+
+ transition: .5s;
+}
+.dws:hover .blocImg img {
+ transform: rotate(-10deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.blocText {
+ position: absolute;
+ top: 4%;
+ left: 4%;
+ right: 4%;
+ bottom: 4%;
+}
+.text {
+ color: #fff;
+ text-transform: uppercase;
+ padding: 0 20px;
+ opacity: 0;
+ transition: .5s;
+}
+.text h2 {
+ font-size: 20px;
+}
+.text h2 span {
+ color: orange;
+ padding-bottom: 3px;
+ border-bottom: 2px solid #fff;
+}
+.text p {
+ position: absolute;
+ top: 25%;
+ width: 90%;
+ border-left: 4px solid #ffb611;
+ text-align: left;
+ padding-left: 15px;
+
+}
+.dws:hover .text {
+ opacity: 1;
+}
+.blocText::before,
+.blocText::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ transition: .5s;
+}
+.blocText::before {
+ border-top: 1px solid #f70000;
+ border-bottom: 1px solid #f70000;
+ transform: scale(0,1);
+}
+.blocText::after {
+ border-left: 1px solid #f70000;
+ border-right: 1px solid #f70000;
+ transform: scale(1,0);
+}
+.dws:hover .blocText::before,
+.dws:hover .blocText::after{
+ transform: scale(1,1);
+}
+.text2 { color: #000000;
+font-size: 110%;}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster&family=Source+Serif+Pro&display=swap');
+body { background: url(img/фон-роллы.jpg);
+  height: 1600px;}
+nav { background: url(img/abstract-luxury-black-gradient-with-border-black-vignette-background-studio-backdrop-well-use-as-back-drop-background-black-board-black-studio-background-black-gradient-frame_1258-180.jpg);
+position: fixed; font-family: 'Source Serif Pro', serif;
+font-size: 110%;
+
+}
+
+.content1 { margin-top: 110px;}
+footer {
+background: url(img/abstract-luxury-black-gradient-with-border-black-vignette-background-studio-backdrop-well-use-as-back-drop-background-black-board-black-studio-background-black-gradient-frame_1258-180.jpg);}
+.visit {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 110%;
+
+}
+.clock {font-size: 110%; }
